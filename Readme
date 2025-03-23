@@ -1,0 +1,25 @@
+# Titanic-Überlebensanalyse mit Python 🛳️
+
+In diesem Projekt wurde der berühmte Titanic-Datensatz analysiert, um herauszufinden, welche Faktoren die Überlebenswahrscheinlichkeit beeinflusst haben.
+
+## 🎯 Ziel des Projekts:
+- Verstehen der Merkmale von überlebenden und nicht-überlebenden Passagieren
+- Datenbereinigung und Feature Engineering
+- Erste explorative Analyse mit Pandas
+
+## 🔍 Durchgeführte Schritte:
+- Entfernen irrelevanter Spalten (z.B. Kabinennummer, Ticket, Name)
+- Kodierung der Spalte „Sex“ in numerische Werte (0 = weiblich, 1 = männlich)
+- Umgang mit fehlenden Werten: Alter durch Mittelwert ersetzt, Embarked durch Modus
+- Gruppierte Analyse nach Geschlecht, Klasse und Alter
+- Berechnung der Überlebensraten nach verschiedenen Variablen
+
+## 📊 Beispielhafte Erkenntnisse:
+- Frauen hatten eine Überlebensrate von ca. 74%, Männer nur ca. 19%
+- 1. Klasse Passagiere hatten eine deutlich höhere Überlebensrate
+- Kinder unter 10 Jahren überlebten häufiger als Erwachsene
+
+## 🛠️ Tools:
+- Python 3.12
+- Pandas
+- Jupyter Notebook (empfohlen zur Weiterbearbeitung)
